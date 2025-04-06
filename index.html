@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackIt - An expense tracker</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex column align jcentre">
+        <div class="heading">
+            <h2>Money Tracker</h2>
+        </div>
+        <div class="moneyblock flex column align jcentre">
+            <div id="moneydisplay">
+            </div>
+            <div class="moneyflowdisply flex align jcentre">
+                <div id="currentmoney" class="flex align jcentre">
+               
+                </div>
+                <div id="expense" class="flex align jcentre">
+                
+                </div>
+            </div>
+            <div class="enteritem flex column align jcentre">
+                <h1>Enter value</h1>
+                <div class="inputholders flex align justify">
+                    <input class="inputone"  type="text" placeholder="Enter reason">
+                    <input class="inputtwo" type="number" placeholder="Enter the amount">
+
+                </div>
+                <div class="enteritembuttons">
+                    <button class="add">Add money</button>
+                    <button class="exp">Expense</button>
+                </div>
+                <button class="reset">Reset All</button>
+            </div>
+
+        </div>
+      
+
+        <div class="tracker">
+            <h2>History</h2>
+            <div id="historytrack" class="flex column align jcentre gap">    
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
